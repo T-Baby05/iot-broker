@@ -26,7 +26,7 @@
 
 
 ## 🌍 管理页面（http://ip:port/index）
-![./images/manage_page.png](images/manage_page1.png)
+![./images/manage_page.png](./images/manage_page1.png)
 
 
 

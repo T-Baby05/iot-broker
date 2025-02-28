@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c342a5ce-3332-4c3b-a048-60b4462d1ee0" name="Changes" comment="feat：完成集群节点管理和终端订阅总数统计" />
+    <list default="true" id="c342a5ce-3332-4c3b-a048-60b4462d1ee0" name="Changes" comment="feat：完成集群节点管理和终端订阅总数统计">
+      <change afterPath="$PROJECT_DIR$/images/manage_page1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -253,7 +258,7 @@
       <workItem from="1740106924300" duration="116494000" />
       <workItem from="1740724080086" duration="566000" />
       <workItem from="1740724741460" duration="348000" />
-      <workItem from="1740725113209" duration="2934000" />
+      <workItem from="1740725113209" duration="3748000" />
     </task>
     <task id="LOCAL-00001" summary="chore：修改maven私服地址，修改local环境的地址">
       <created>1738892011929</created>
