@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="plat-modules-broker" />
+        <module name="plat-modules-mqtt-client" />
+        <module name="plat-api-broker" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="plat-api" target="11" />
+      <module name="plat-api-calling" target="11" />
+      <module name="plat-api-file" target="11" />
+      <module name="plat-api-gansu" target="11" />
+      <module name="plat-api-gansu (1)" target="11" />
+      <module name="plat-api-system" target="11" />
+      <module name="plat-auth" target="11" />
+      <module name="plat-common" target="11" />
+      <module name="plat-common-core" target="11" />
+      <module name="plat-common-datascope" target="11" />
+      <module name="plat-common-datasource" target="11" />
+      <module name="plat-common-job" target="11" />
+      <module name="plat-common-kafka" target="11" />
+      <module name="plat-common-log" target="11" />
+      <module name="plat-common-redis" target="11" />
+      <module name="plat-common-rocketmq" target="11" />
+      <module name="plat-common-seata" target="11" />
+      <module name="plat-common-security" target="11" />
+      <module name="plat-common-swagger" target="11" />
+      <module name="plat-gateway" target="11" />
+      <module name="plat-modules" target="11" />
+      <module name="plat-modules-broker (1)" target="11" />
+      <module name="plat-modules-broker (2)" target="11" />
+      <module name="plat-modules-coresat-calling" target="11" />
+      <module name="plat-modules-system" target="11" />
+      <module name="plat-registry" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

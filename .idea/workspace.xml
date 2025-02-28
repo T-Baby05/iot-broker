@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c342a5ce-3332-4c3b-a048-60b4462d1ee0" name="Changes" comment="feat：完成集群节点管理和终端订阅总数统计" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="WangZaihong &lt;zaihong.wang@outlook.com&gt;" />
+        <option value="yanqiang &lt;865917361@qq.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop_gansu_merge" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/io/moquette/moquette-broker/0.19-persistence-extend/moquette-broker-0.19-persistence-extend-sources.jar!/io/moquette/broker/PostOffice.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/io/moquette/moquette-broker/0.19-persistence-extend/moquette-broker-0.19-persistence-extend-sources.jar!/io/moquette/broker/ISubscriptionsRepository.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/io/moquette/moquette-broker/0.19-persistence-extend/moquette-broker-0.19-persistence-extend-sources.jar!/io/moquette/broker/subscriptions/ISubscriptionsDirectory.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/io/moquette/moquette-broker/0.19-persistence-extend/moquette-broker-0.19-persistence-extend-sources.jar!/io/moquette/broker/Server.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/io/moquette/moquette-broker/0.19-persistence-extend/moquette-broker-0.19-persistence-extend-sources.jar!/io/moquette/broker/subscriptions/CTrieSubscriptionDirectory.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\Users\wangzaihong\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2scHKSFL0hvzwHvSEaM8VQAYVyk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.coresat.plat.broker.handeler" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\wangzaihong\Documents\01CODE\iot-broker" />
+      <recent name="D:\Users\wangzaihong\Documents\01CODE\iot-platform\plat-modules\plat-modules-broker\src\main" />
+      <recent name="D:\Users\wangzaihong\Documents\01CODE\iot-platform\plat-api\plat-api-gansu\src\main\resources" />
+      <recent name="D:\Users\wangzaihong\Documents\01CODE\iot-platform\src\main\filters" />
+      <recent name="D:\Users\wangzaihong\Documents\01CODE\iot-platform\plat-modules\plat-modules-broker\src\main\resources\config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\wangzaihong\Documents\01CODE\iot-platform - 副本" />
+      <recent name="D:\Users\wangzaihong\Documents\01CODE\iot-platform\plat-modules\plat-modules-broker\src\main\resources\images" />
+      <recent name="D:\Users\wangzaihong\Documents\01CODE\iot-platform\plat-api" />
+      <recent name="D:\Users\wangzaihong\Documents\01CODE\iot-platform\plat-modules\plat-modules-broker\src\main\resources\config" />
+      <recent name="D:\Users\wangzaihong\Documents\01CODE\iot-platform\plat-modules\plat-modules-broker\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.coresat.plat.broker.config" />
+      <recent name="com.coresat.plat.broker.persistance" />
+      <recent name="com.coresat.plat.broker.handeler" />
+      <recent name="com.coresat.plat.broker.controller" />
+      <recent name="com.coresat.plat.broker.consumer" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MqttClientApplication">
+    <configuration name="HostInfoUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coresat.plat.broker.utils.HostInfoUtil" />
+      <module name="plat-modules-broker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coresat.plat.broker.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BrokerApplication 1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="plat-modules-broker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coresat.plat.broker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.coresat.plat.broker.BrokerApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=10085 -Dmqtt.port=1884 -Dmqtt.data_path=moquette_store_1.h2" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BrokerApplication 2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="plat-modules-broker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coresat.plat.broker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.coresat.plat.broker.BrokerApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=10086 -Dmqtt.port=1885 -Dmqtt.data_path=moquette_store_2.h2" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoresatCallingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="plat-modules-coresat-calling" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.coresat.plat.CoresatCallingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MqttClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="plat-modules-mqtt-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coresat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.coresat.MqttClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlatAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="plat-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.coresat.plat.auth.PlatAuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlatGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="plat-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.coresat.plat.gateway.PlatGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlatSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="plat-modules-system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.coresat.plat.system.PlatSystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="plat-gateway/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="1.0.0" />
+          <option name="containerName" value="plat-gateway" />
+          <option name="sourceFilePath" value="plat-gateway/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.HostInfoUtil" />
+      <item itemvalue="Docker.plat-gateway/Dockerfile" />
+      <item itemvalue="Spring Boot.CoresatCallingApplication" />
+      <item itemvalue="Spring Boot.PlatAuthApplication" />
+      <item itemvalue="Spring Boot.PlatGatewayApplication" />
+      <item itemvalue="Spring Boot.PlatSystemApplication" />
+      <item itemvalue="Spring Boot.MqttClientApplication" />
+      <item itemvalue="Spring Boot.BrokerApplication 1" />
+      <item itemvalue="Spring Boot.BrokerApplication 2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.MqttClientApplication" />
+        <item itemvalue="Spring Boot.BrokerApplication 1" />
+        <item itemvalue="Spring Boot.BrokerApplication 2" />
+        <item itemvalue="Application.HostInfoUtil" />
+        <item itemvalue="Docker.plat-gateway/Dockerfile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c342a5ce-3332-4c3b-a048-60b4462d1ee0" name="Changes" comment="" />
+      <created>1738747880042</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738747880042</updated>
+      <workItem from="1738747882196" duration="8602000" />
+      <workItem from="1738813441708" duration="1000" />
+      <workItem from="1738813707902" duration="2950000" />
+      <workItem from="1738828541447" duration="26221000" />
+      <workItem from="1739005381267" duration="141239000" />
+      <workItem from="1740106924300" duration="116494000" />
+      <workItem from="1740724080086" duration="566000" />
+      <workItem from="1740724741460" duration="348000" />
+      <workItem from="1740725113209" duration="2934000" />
+    </task>
+    <task id="LOCAL-00001" summary="chore：修改maven私服地址，修改local环境的地址">
+      <created>1738892011929</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738892011929</updated>
+    </task>
+    <task id="LOCAL-00002" summary="hotfix：修复初始化设备版本映射表异常">
+      <created>1739002420631</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739002420631</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat：添加broker模块">
+      <created>1739171492619</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739171492619</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat：添加设备摄像头批量配置接口">
+      <created>1739173526335</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739173526335</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat：添加设备摄像头批量配置接口">
+      <created>1739326873836</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739326873836</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat：修改持久化策略（未替换默认的策略）">
+      <created>1739426044501</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739426044501</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat：持久化策略替换完成(部分序列化问题待解决)">
+      <created>1739516851931</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739516851931</updated>
+    </task>
+    <task id="LOCAL-00008" summary="hotfix：修复代码合并后的报错问题">
+      <created>1739522720583</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1739522720583</updated>
+    </task>
+    <task id="LOCAL-00009" summary="hotfix：修复代码合并后的报错问题">
+      <created>1739526933577</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1739526933578</updated>
+    </task>
+    <task id="LOCAL-00010" summary="hotfix：修复甘肃环境auth服务启动报错">
+      <created>1739776202617</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1739776202617</updated>
+    </task>
+    <task id="LOCAL-00011" summary="hotfix：修复甘肃环境代码合并后信令解析失败">
+      <created>1739847714474</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1739847714474</updated>
+    </task>
+    <task id="LOCAL-00012" summary="hotfix：修复甘肃环境第三方API创建播发任务创建人问题">
+      <created>1739847925130</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1739847925130</updated>
+    </task>
+    <task id="LOCAL-00013" summary="hotfix：修复甘肃环境第三方API创建播发任务创建人问题">
+      <created>1739855796113</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1739855796113</updated>
+    </task>
+    <task id="LOCAL-00014" summary="hotfix：修复mid缺失问题">
+      <created>1739933646771</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1739933646771</updated>
+    </task>
+    <task id="LOCAL-00015" summary="hotfix：添加versionMap为空的情况">
+      <created>1740038417422</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1740038417422</updated>
+    </task>
+    <task id="LOCAL-00016" summary="hotfix：修改日志级别">
+      <created>1740038447351</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1740038447351</updated>
+    </task>
+    <task id="LOCAL-00017" summary="hotfix：修改broker">
+      <created>1740038508829</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1740038508829</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat：第三方播发任务添加下发渠道">
+      <created>1740042814628</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1740042814628</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat：扩展broker">
+      <created>1740126534248</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1740126534248</updated>
+    </task>
+    <task id="LOCAL-00020" summary="feat：完成broker的基础功能">
+      <created>1740389956557</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1740389956557</updated>
+    </task>
+    <task id="LOCAL-00021" summary="feat：broker管理页面添加终端ID过滤功能">
+      <created>1740452556351</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1740452556351</updated>
+    </task>
+    <task id="LOCAL-00022" summary="feat：修改日志级别">
+      <created>1740461157455</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1740461157455</updated>
+    </task>
+    <task id="LOCAL-00023" summary="feat：签名登录代码修改">
+      <created>1740464313439</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1740464313440</updated>
+    </task>
+    <task id="LOCAL-00024" summary="hotfix：解决设备DM数据库报错问题">
+      <created>1740465803409</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1740465803409</updated>
+    </task>
+    <task id="LOCAL-00025" summary="hotfix：修复北斗通道下发报错">
+      <created>1740465916901</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1740465916901</updated>
+    </task>
+    <task id="LOCAL-00026" summary="feat：完成broker基本功能">
+      <created>1740635883868</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1740635883868</updated>
+    </task>
+    <task id="LOCAL-00027" summary="feat：添加http认证接口配置支持">
+      <created>1740642340428</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1740642340428</updated>
+    </task>
+    <task id="LOCAL-00028" summary="feat：管理页面添加统计信息">
+      <created>1740650920629</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1740650920629</updated>
+    </task>
+    <task id="LOCAL-00029" summary="feat：完成集群节点管理和终端订阅总数统计">
+      <created>1740720792536</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1740720792536</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/develop_gansu_merge" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/develop_gansu_merge" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/hotfix_device_detail" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/develop_demeng" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat：添加broker模块" />
+    <MESSAGE value="feat：添加设备摄像头批量配置接口" />
+    <MESSAGE value="feat：修改持久化策略（未替换默认的策略）" />
+    <MESSAGE value="feat：持久化策略替换完成(部分序列化问题待解决)" />
+    <MESSAGE value="hotfix：修复代码合并和报错问题" />
+    <MESSAGE value="hotfix：修复代码合并后的报错问题" />
+    <MESSAGE value="hotfix：修复甘肃环境auth服务启动报错" />
+    <MESSAGE value="hotfix：修复甘肃环境代码合并后信令解析失败" />
+    <MESSAGE value="hotfix：修复甘肃环境第三方API创建播发任务创建人问题" />
+    <MESSAGE value="hotfix：修复mid缺失问题" />
+    <MESSAGE value="hotfix：添加versionMap为空的情况" />
+    <MESSAGE value="hotfix：修改日志级别" />
+    <MESSAGE value="hotfix：修改broker" />
+    <MESSAGE value="feat：第三方播发任务添加下发渠道" />
+    <MESSAGE value="feat：扩展broker" />
+    <MESSAGE value="feat：完成broker的基础功能" />
+    <MESSAGE value="feat：broker管理页面添加终端ID过滤功能" />
+    <MESSAGE value="feat：修改日志级别" />
+    <MESSAGE value="feat：签名登录代码修改" />
+    <MESSAGE value="hotfix：解决设备DM数据库报错问题" />
+    <MESSAGE value="hotfix：修复北斗通道下发报错" />
+    <MESSAGE value="feat：完成broker基本功能" />
+    <MESSAGE value="feat：添加http认证接口配置支持" />
+    <MESSAGE value="feat：管理页面添加统计信息" />
+    <MESSAGE value="feat：完成集群节点管理和终端订阅总数统计" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat：完成集群节点管理和终端订阅总数统计" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/moquette/moquette-broker/0.17/moquette-broker-0.17-sources.jar!/io/moquette/broker/config/ConfigurationParser.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/plat-common/plat-common-core/src/main/java/com/coresat/plat/common/core/utils/sign/Secret.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/plat-modules/plat-modules-coresat-calling/src/main/java/com/coresat/plat/file/service/upload/service/impl/DeviceDataServiceImpl.java</url>
+          <line>676</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/plat-modules/plat-modules-coresat-calling/src/main/java/com/coresat/plat/file/ftp/server/UserSTOR.java</url>
+          <line>279</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="((CustomInterceptorHandler)this).messageReceiver" custom="com.coresat.plat.broker.handeler.CustomInterceptorHandler" />
+        <watch expression="((CustomInterceptorHandler)this).messageReceiver" custom="com.coresat.plat.broker.handeler.CustomInterceptorHandler" />
+        <watch expression="((CustomInterceptorHandler)this).mqttMessagePublisher" custom="com.coresat.plat.broker.handeler.CustomInterceptorHandler" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

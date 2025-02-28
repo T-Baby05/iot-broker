@@ -1,0 +1,41 @@
+# Spring
+spring: 
+  application:
+    # 应用名称
+    name: plat-modules-mqtt-client
+server:
+  port: 10087
+mqtt:
+  #MQTT-服务器连接地址，如果有多个，用逗号隔开，如：tcp://127.0.0.1:61613，tcp://192.168.2.133:61613
+#  host: tcp://20.111.203.131:1883
+#  host: tcp://222.212.88.142:1883
+#  host: tcp://222.212.88.142:20250
+  host: tcp://192.168.3.58:1884
+#  host: tcp://192.168.23.6:8083
+  #MQTT-用户名
+  username: coresat
+  #MQTT-密码
+  password: 84b636627d651bbe0ca98d3481f38ebc75e91bebe624df2c6f480bc3a8b24a7a
+  #连接超时
+  timeout: 30000
+  #设置会话心跳时间
+  keepalive: 60
+  #MQTT-连接服务器默认客户端ID
+  client_ids:
+   - B034BC01051
+   - B034BC00939
+   - B034BC00931
+   - B034BC01410
+   - B034BC00982
+   - B034BC01145
+   - B034BC01243
+   - B034BC00976
+   - B034BC01188
+   - B034BB00143
+   - B034BC01048
+   - B034BC01414
+   - B034BC00938
+   - B034BC00995
+   - B034BC01358
+   - B034BC01315
+   - B034BC01332

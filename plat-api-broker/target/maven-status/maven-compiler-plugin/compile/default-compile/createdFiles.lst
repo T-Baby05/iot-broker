@@ -1,0 +1,6 @@
+com\coresat\plat\api\broker\CommonMqttMessage.class
+com\coresat\plat\api\broker\auth\AuthResponse.class
+com\coresat\plat\api\broker\SessionCreateMessage.class
+com\coresat\plat\api\broker\topic\RocketmqTopic.class
+com\coresat\plat\api\broker\SessionRemoveMessage.class
+com\coresat\plat\api\broker\auth\AuthRequest.class
