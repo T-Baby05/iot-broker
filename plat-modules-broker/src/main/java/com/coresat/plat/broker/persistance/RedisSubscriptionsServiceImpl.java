@@ -9,9 +9,12 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.script.DefaultRedisScript;
 import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
+import org.springframework.util.StreamUtils;
 
 import javax.annotation.Resource;
 import java.io.IOException;
+import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.util.Collections;
 import java.util.HashSet;
@@ -64,11 +67,15 @@ private ResourceLoader resourceLoader;
     }
 
     @Override
-    public Long getSubscriptionsTotal() throws IOException {
-        // 读取 Lua 脚本内容
-        String luaScript = Files.readString(new ClassPathResource("scripts/scan_subscriptions.lua").getFile().toPath());
-        System.out.println(luaScript);
-        DefaultRedisScript<Long> script = new DefaultRedisScript<>(luaScript, Long.class);
-        return redisTemplate.execute(script, Collections.emptyList());
+    public Long getSubscriptionsTotal() {
+
+        ClassPathResource resource = new ClassPathResource("scripts/scan_subscriptions.lua");
+        try (InputStream inputStream = resource.getInputStream()) {
+            String luaScript = StreamUtils.copyToString(inputStream, StandardCharsets.UTF_8);
+            DefaultRedisScript<Long> script = new DefaultRedisScript<>(luaScript, Long.class);
+            return redisTemplate.execute(script, Collections.emptyList());
+        } catch (IOException e) {
+            throw new RuntimeException("加载Lua脚本失败", e);
+        }
     }
 }

@@ -1,5 +1,5 @@
 server:
-  port: 10086
+  port: 10085
 # 集群测试配置，后续删除
 #mqtt:
 #  port: 1884
@@ -64,8 +64,8 @@ rocketmq:
     enable-message-orderly: false
     # 如果需要设置延时消息的消费参数，也可以在这里配置
     delay-level: 3
-moquette:
-  auth:
-    type: http  # 认证方式: 暂时支持http，后续可扩展其他的方式
-    httpUrl: http://localhost:10085/api/mqtt/auth
-    httpTimeout: 3000
+#moquette:
+#  auth:
+#    type: http  # 认证方式: 暂时支持http，后续可扩展其他的方式
+#    httpUrl: http://localhost:10085/api/mqtt/auth
+#    httpTimeout: 3000

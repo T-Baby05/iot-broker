@@ -77,9 +77,9 @@ public class WebApiRestController {
         return ResponseEntity.ok(sessions.size());
     }
 
-    // 获取所有在线设备
+    // 获取设备订阅总数
     @GetMapping("/subscriptions/total")
-    public ResponseEntity<Long> getSubscriptionsTotal() throws IOException {
+    public ResponseEntity<Long> getSubscriptionsTotal() {
         Long total = subscriptionService.getSubscriptionsTotal();
         return ResponseEntity.ok(total);
     }

@@ -72,7 +72,7 @@
 </div>
 
 <script>
-    function refreshAll(){
+    function refreshAll() {
         initStatistics();
         searchSessions();
     }
@@ -84,14 +84,14 @@
             .then(data => {
                 let dataRow = "";
                 data.forEach(client => {
-                    console.log(client)
+                    let onlineTime = formatDate(client.onlineTime)
                     let row = `<tr>
                         <td >${client.clientId}</td>
                         <td >已连接</td>
                         <td >${client.username}</td>
                         <td >${client.keepAlive}s</td>
                         <td >${client.cleanSession ? '临时会话' : '持久会话'}</td>
-                        <td >${client.onlineTime}</td>
+                        <td >${onlineTime}</td>
                         <td >${client.nodeId}</td>
                         <td >127.0.0.1[X]</td>
                     </tr>`;
@@ -99,6 +99,10 @@
                 });
                 document.querySelector("#deviceTable tbody").innerHTML = dataRow;
             });
+    }
+
+    function formatDate(time) {
+        return new Date(time).toLocaleString().replace(/\//g, "-");
     }
 
     function getClusterList(callback) {
@@ -150,6 +154,8 @@
     }
 
     refreshAll();
+    // 启动定时任务刷新页面数据
+    setInterval(() => refreshAll(), 10000)
 </script>
 </body>
 

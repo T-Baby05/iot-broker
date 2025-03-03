@@ -21,5 +21,5 @@ public interface ISubscriptionService {
 
     Set<CustomSubscription> getSubscriptions(String clientId);
 
-    Long getSubscriptionsTotal() throws IOException;
+    Long getSubscriptionsTotal();
 }
